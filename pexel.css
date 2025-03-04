@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #f8f8f8;
+
+}
+header{
+    height:60px;
+    width: 100%;
+    background: #222121;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+}
+.container{
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    
+
+}
+.logo{
+    font-size: 50px;
+
+
+}
+.hero{
+    width: 100%;
+    height: auto;
+   
+    color: #130202;
+    text-align: center;
+    padding: 140px 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9W9vwDNn5X7zAVeDHXgUKo0nBy0pqCaDcw&s);
+    background-size: cover;
+    height: 100%;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero-section{
+    background-color: #f8f8f8;
+    margin-top: 60px;
+    padding: 50px;
+    border: 5px solid darkgray;
+   
+}
+
+.hero h2{
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+
+
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+}
+button{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+   
+}
